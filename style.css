@@ -113,6 +113,8 @@ border-radius: 10px;
 @media (min-width:325px) and (max-width: 412px) {
   
   .calculator{
-    width: 325px;
+    width: 100%;
+    background-color: transparent;
+    font-weight: bolder;
   }
 }
