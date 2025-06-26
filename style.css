@@ -50,15 +50,25 @@ place-items: center;
 }
 
 
+
+
 body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+justify-content:space-between;
    min-height: 100vh;
    max-height: auto;
    background-image: linear-gradient(to top right , plum, rgb(149, 189, 225));
 background-repeat: no-repeat;
 background-size: cover;
+}
+.footer{
+
+margin-top: 50px;
+padding: 0;
+
 }
 .screen{
   background-color: transparent;
